@@ -3,6 +3,10 @@
 ## Overview
 This project, centered on the `NCR_code.ipynb` notebook, implements an **interpretable machine learning pipeline** to study adverse surgical outcomes. By analyzing dynamic intraoperative signals from **2,747 cardiothoracic surgeries** (January 2011 – December 2020) in the **INSPIRE** dataset, we identify surgical trajectory phenotypes and predict postoperative complications such as extended ICU stays and in-hospital mortality.
 
+## Data Source
+INSPIRE, a publicly available research dataset for perioperative medicine
+https://physionet.org/content/inspire/1.3/
+
 ## Project Scientific Framework
 The methodology focuses on reframing intraoperative physiology as a set of dynamic trajectories that encode hidden risk phenotypes. Key innovation includes the direct **coupling of vasopressor dosing with hemodynamic response (MAP)**, allowing for the extraction of mechanistically grounded risk profiles.
 
